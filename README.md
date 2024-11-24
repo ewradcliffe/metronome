@@ -1,5 +1,16 @@
 # Metronome
 
+## Introduction.
+A metronome is a device which repeats a steady sound to help musicians play in time. Typically the user can adjust the speed (aka tempo) according to their need. More advanced versions give the user control over other parameters.
+
+The impetus for this project was my own desire for a metronome capable of playing at speeds higher than existing freely available models for use in my own musical practice. It was also an opportunity to implement many of the programming and planning skills I have learned.
+
+## Planning
+
+
+
+## Credits
+The project was based on a template produced by the [Code Institute](https://github.com/Code-Institute-Org/ci-full-template).
 
 ## Gitpod Reminders
 
