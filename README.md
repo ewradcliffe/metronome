@@ -5,9 +5,38 @@ A metronome is a device which repeats a steady sound to help musicians play in t
 
 The impetus for this project was my own desire for a metronome capable of playing at speeds higher than existing freely available models for use in my own musical practice. It was also an opportunity to implement many of the programming and planning skills I have learned.
 
-## Planning
+# Planning
+
+## Strategy
+The project was planned according to agile planning methodology. User stories were collected. Most of these were based on what I wanted in a metronome, others were based on various internet postings. Each of these issues would be addressed by adding features to the app.
+
+## Scope
+User issues were collected and added to a [Kanban Board](https://github.com/users/ewradcliffe/projects/9/views/1). Issues were graded according to the MoSCoW method:
+
+- Must have: Features without which the project will not work.
+
+- Should have: Features not essential to the functioning of the project, but will add significant value to the project.
+
+- Could have: Features which may be useful, but will not add as much value to the site.
+
+- Won't have: Features which will not be part of the iteration of development.
 
 
+## Structure
+
+## Skeleton
+
+## Surface
+
+## Testing
+
+## Validation
+
+## Technologies
+
+## Deployment
+
+## Future development
 
 ## Credits
 The project was based on a template produced by the [Code Institute](https://github.com/Code-Institute-Org/ci-full-template).
