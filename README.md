@@ -25,6 +25,13 @@ User issues were collected and added to a [Kanban Board](https://github.com/user
 ## Structure
 
 ## Skeleton
+Rough wire frames were produced for mobile and full screen versions of the app.
+
+#### Mobile View.  
+![Mobile view](assets/images/mobile.png)
+  
+#### Large screens  
+![Large Screen View](assets/images/large_screen.png)
 
 ## Surface
 
@@ -39,7 +46,9 @@ User issues were collected and added to a [Kanban Board](https://github.com/user
 ## Future development
 
 ## Credits
-The project was based on a template produced by the [Code Institute](https://github.com/Code-Institute-Org/ci-full-template).
+- The project was based on a template produced by the [Code Institute](https://github.com/Code-Institute-Org/ci-full-template).
+
+- Wire Frames produced in [balsamiq](https://balsamiq.com/).
 
 ## Gitpod Reminders
 
