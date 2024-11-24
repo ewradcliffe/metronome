@@ -8,7 +8,7 @@ The impetus for this project was my own desire for a metronome capable of playin
 # Planning
 
 ## Strategy
-The project was planned according to agile planning methodology. User stories were collected. Most of these were based on what I wanted in a metronome, others were based on various internet postings. Each of these issues would be addressed by adding features to the app.
+The project was planned according to agile planning methodology. User stories were collected. Most of these were based on what I wanted in a metronome, others were based on various internet postings. Each of these issues would be addressed by adding features to the app. Wire frames were produced to visualise the layout of the app. The design was to use mobile first design as many musicians practice away from their PC's.
 
 ## Scope
 User issues were collected and added to a [Kanban Board](https://github.com/users/ewradcliffe/projects/9/views/1). Issues were graded according to the MoSCoW method:
