@@ -19,6 +19,12 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
+/* bpm counter styles */
+#bpm-count {
+    font-size: 400%;
+    margin: 5%;
+    padding: 5%;
+}
 
 /* Component styles */
 .component {
