@@ -38,7 +38,8 @@ header {
 }
 
 /* Component styles */
-.bpm-count-container,
+#bpm-count-container,
+#st-btn-container,
 .btn-container {
     background-color: #4e4345;
     border-radius: 5px;
@@ -67,24 +68,16 @@ header {
 }
 
 /* Component styles */
-.bpm-count-container {
+#bpm-count-container {
     width: 60%;
     margin: 5%;
 }
 
-.btn-container {
+#st-btn-container {
     border-radius: 5px;
     width: 20%;
     height: 20%;
     margin: 15% 5%;
 }
 
-/* Button styles
-.btn {
-    font-size: 200%;
-    width: 90%;
-    margin: 5%;
-    padding: 5%;
-}
-*/
 }
