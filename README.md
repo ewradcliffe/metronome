@@ -26,10 +26,10 @@ User issues were collected and added to a [Kanban Board](https://github.com/user
 The metronome was structured to be as intuitive as possible to operate. Wire frames were prepared to conceptualise the overall placement of features. Symbols from Font Awesome were chosen for interactive components such as buttons to support users with different languages. Colour would be used to demarcate different sections of the UI. A header and footer would be used to frame the UI. Additional components could be added to these at a later stage of development.
 
 #### Mobile View.  
-![Mobile view]()
+![Mobile view](assets/images/mobile.png)
   
 #### Large screens  
-![Large Screen View]()
+![Large Screen View](assets/images/large_screen.png)
 
 
 ## Gitpod Reminders
