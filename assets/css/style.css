@@ -13,6 +13,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #121212;
     /* Project styles */
+    color: white;
     font-family: "Rubik", sans-serif;
+}
+
+.component {
+    background-color: #4e4345;
+    margin: 5%;
+    padding: 5%;
 }
