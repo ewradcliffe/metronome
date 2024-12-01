@@ -1,3 +1,6 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 /* Asterisk wildcard selector to override browser default styles */
 * {
     padding: 0;
@@ -10,5 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
+    /* Project styles */
+    font-family: "Rubik", sans-serif;
 }
