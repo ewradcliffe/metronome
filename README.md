@@ -54,6 +54,7 @@ The metronome was structured to be as intuitive as possible to operate. Wire fra
 
 - Font from [Google Font](https://fonts.google.com/).
 
+- Colour scheme planned with [colorffy](https://colorffy.com/).
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
