@@ -19,6 +19,16 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
+/* Header */
+header {
+    background-color: #4e4345;
+}
+
+#logo {
+    font-size: 300%;
+    padding-top: 2%;
+}
+
 /* bpm counter styles */
 #bpm-count {
     font-size: 400%;
