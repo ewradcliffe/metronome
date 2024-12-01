@@ -38,7 +38,8 @@ header {
 }
 
 /* Component styles */
-.component {
+.bpm-count-container,
+.btn-container {
     background-color: #4e4345;
     border-radius: 5px;
     width: 92%;
