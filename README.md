@@ -10,6 +10,16 @@ The impetus for this project was my own desire for a metronome capable of playin
 ## Strategy
 This project would be implemented usingog an agile methodology, and a plan was constructed accordingly. User stories were collected. Most of these were based on what I wanted in a metronome, others were based on various internet postings. Each of these issues would be addressed by adding features to the app. The design was to use mobile first design to support musicians practicing away from a PC. Wire frames were produced to visualise the layout of the app and a basic colour scheme was decided upon.
 
+## Scope
+User issues were collected and added to a [Kanban Board](https://github.com/users/ewradcliffe/projects/10/views/1). Issues were graded according to the MoSCoW method:
+
+- Must have: Features without which the project will not work.
+
+- Should have: Features not essential to the functioning of the project, but will add significant value to the project.
+
+- Could have: Features which may be useful, but will not add as much value to the site.
+
+- Won't have: Features which will not be part of the iteration of development.
 
 
 
