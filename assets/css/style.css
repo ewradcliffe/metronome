@@ -5,7 +5,10 @@
     box-sizing: border-box;
 }
 
-
+/* General styles */
 body {
-    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
