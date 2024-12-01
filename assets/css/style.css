@@ -19,8 +19,20 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
+
+/* Component styles */
 .component {
     background-color: #4e4345;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+/* Button styles */
+.btn {
+    border-style: solid;
+    border-color: #8b8b8b;
+    color: #b54e63;
+    font-size: 200%;
     margin: 5%;
     padding: 5%;
 }
