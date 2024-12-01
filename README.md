@@ -31,6 +31,25 @@ The metronome was structured to be as intuitive as possible to operate. Wire fra
 #### Large screens  
 ![Large Screen View](assets/images/large_screen.png)
 
+## Skeleton
+
+## Surface
+
+## Testing
+
+## Validation
+
+## Technologies
+
+## Deployment
+
+## Future development
+
+## Credits
+- The project was based on a template produced by the [Code Institute](https://github.com/Code-Institute-Org/ci-full-template).
+
+- Wire Frames produced in [balsamiq](https://balsamiq.com/).
+
 
 ## Gitpod Reminders
 
