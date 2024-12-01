@@ -56,3 +56,35 @@ header {
     margin: 5%;
     padding: 5%;
 }
+
+/* Media Queries*/
+/*Tablets and up (992px+)*/
+
+@media screen and (min-width: 992px) {
+    /* bpm counter styles */
+#bpm-count {
+    font-size: 600%;
+}
+
+/* Component styles */
+.bpm-count-container {
+    width: 60%;
+    margin: 5%;
+}
+
+.btn-container {
+    border-radius: 5px;
+    width: 20%;
+    height: 20%;
+    margin: 15% 5%;
+}
+
+/* Button styles
+.btn {
+    font-size: 200%;
+    width: 90%;
+    margin: 5%;
+    padding: 5%;
+}
+*/
+}
