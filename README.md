@@ -50,6 +50,8 @@ The metronome was structured to be as intuitive as possible to operate. Wire fra
 
 - Wire Frames produced in [balsamiq](https://balsamiq.com/).
 
+- Icons from [Font Awesome](https://fontawesome.com/)
+
 
 ## Gitpod Reminders
 
