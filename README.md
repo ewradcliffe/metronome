@@ -55,6 +55,9 @@ The metronome was structured to be as intuitive as possible to operate. Wire fra
 - Font from [Google Font](https://fonts.google.com/).
 
 - Colour scheme planned with [colorffy](https://colorffy.com/).
+
+- Metronome sounds by [Druminfected]( https://freesound.org/people/Druminfected/) available from [Freesound](https://freesound.org/people/Druminfected/packs/15379/). Used with permission under [Creative Commons 0](http://creativecommons.org/publicdomain/zero/1.0/)
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
