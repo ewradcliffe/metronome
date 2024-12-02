@@ -18,6 +18,14 @@ document.addEventListener("DOMContentLoaded", () => {
     bpmCount.innerHTML = bpm;
   }
 
+  // function to play metronome
+  function playMetronome() {
+    setInterval(function() {
+      const click = new Audio('assets/sounds/250552__druminfected__metronome.wav');
+      click.play();
+    }, Math.round(60000/bpm));
+  }
+
   // Event Listeners
   // Decrease Tempo
   const slowButton = document.getElementById('slow-button');
@@ -25,4 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // increase Tempo
   const fastButton = document.getElementById('fast-button');
   fastButton.addEventListener('click', increaseBPM);
+  // play/pause button
+  const startButton = document.getElementById('st-button');
+  startButton.addEventListener('click', playMetronome); 
 });
