@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let bpm = 100;
   let bpmCount = document.getElementById('bpm-count')
   bpmCount.innerHTML = bpm;
+
+  // Stores interval ID
+  let metronomeInterval = null;
   
 
   // function to decrease bpm by one.
@@ -18,13 +21,19 @@ document.addEventListener("DOMContentLoaded", () => {
     bpmCount.innerHTML = bpm;
   }
 
-  // function to play metronome
+  // Function to start and stop metronome
   function playMetronome() {
-    setInterval(function() {
-      const click = new Audio('assets/sounds/250552__druminfected__metronome.wav');
-      click.play();
-    }, Math.round(60000/bpm));
+    if (metronomeInterval === null) {
+      metronomeInterval = setInterval(function() {
+        const click = new Audio('assets/sounds/250552__druminfected__metronome.wav');
+        click.play();
+      }, Math.round(60000 / bpm));
+    } else {
+      clearInterval(metronomeInterval);
+      metronomeInterval = null;
+    }
   }
+
 
   // Event Listeners
   // Decrease Tempo
