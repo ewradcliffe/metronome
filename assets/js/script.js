@@ -12,8 +12,17 @@ document.addEventListener("DOMContentLoaded", () => {
     bpmCount.innerHTML = bpm;
   }
 
+  // function to increase bpm by one.
+  function increaseBPM() {
+    bpm += 1;
+    bpmCount.innerHTML = bpm;
+  }
+
   // Event Listeners
   // Decrease Tempo
   const slowButton = document.getElementById('slow-button');
   slowButton.addEventListener('click', decreaseBPM);
+  // increase Tempo
+  const fastButton = document.getElementById('fast-button');
+  fastButton.addEventListener('click', increaseBPM);
 });
