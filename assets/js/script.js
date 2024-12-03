@@ -16,6 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
   function decreaseBPM() {
     bpm -= 1;
     bpmCount.innerHTML = bpm;
+    if (metronomeInterval !== null) {
+      playMetronome();
+      playMetronome();
+    }
   }
 
   // function to increase bpm by one.
@@ -34,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       metronomeInterval = setInterval(function() {
         click.play();
         document.getElementById('st-button').innerHTML = '<i class="fa-solid fa-stop"></i>';
-      }, Math.round(60000 / bpm));
+      }, console.log(Math.round(60000 / bpm)));
     } else {
       clearInterval(metronomeInterval);
       metronomeInterval = null;
