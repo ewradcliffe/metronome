@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Stores interval ID
   let metronomeInterval = null;
-  
+
 
   // function to decrease bpm by one.
   function decreaseBPM() {
@@ -22,6 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
   function increaseBPM() {
     bpm += 1;
     bpmCount.innerHTML = bpm;
+    if (metronomeInterval !== null) {
+      playMetronome();
+      playMetronome();
+    }
   }
 
   // Function to start and stop metronome
