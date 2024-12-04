@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Loads default bpm
   let bpm = 100;
-  let bpmCount = document.getElementById('bpm-count')
+  const bpmCount = document.getElementById('bpm-count')
   bpmCount.innerHTML = bpm;
 
   // loads audio file.
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       metronomeInterval = setInterval(function() {
         click.play();
         document.getElementById('st-button').innerHTML = '<i class="fa-solid fa-stop"></i>';
-      }, console.log(Math.round(60000 / bpm)));
+      }, 1000);
     } else {
       clearInterval(metronomeInterval);
       metronomeInterval = null;
