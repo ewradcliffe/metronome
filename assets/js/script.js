@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // Stores interval ID
   let metronomeInterval = null;
 
-
   // function to decrease bpm by one.
   function decreaseBPM() {
     bpm -= 1;
@@ -38,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
       metronomeInterval = setInterval(function() {
         click.play();
         document.getElementById('st-button').innerHTML = '<i class="fa-solid fa-stop"></i>';
-      }, 1000);
+      }, Math.round(60000 / bpm));
     } else {
       clearInterval(metronomeInterval);
       metronomeInterval = null;
