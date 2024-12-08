@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+/* document.addEventListener("DOMContentLoaded", () => {
 
   // Loads default bpm
   let bpm = 100;
@@ -56,3 +56,4 @@ document.addEventListener("DOMContentLoaded", () => {
   const startButton = document.getElementById('st-button');
   startButton.addEventListener('click', playMetronome); 
 });
+ */
