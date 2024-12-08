@@ -1,3 +1,8 @@
+window.onload = function() {
+  const bpmCount = parseInt(document.getElementById('bpm-count').getAttribute('data-bpm'));
+  document.getElementById('bpm-count').textContent = bpmCount;
+};
+
 /* document.addEventListener("DOMContentLoaded", () => {
 
   // Loads default bpm

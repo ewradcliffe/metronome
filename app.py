@@ -5,8 +5,8 @@ app = Flask(__name__)
 # Route for the homepage
 @app.route('/')
 def index():
-    tempo = 100
-    return render_template('index.html', tempo = tempo)
+    tempo = 100  # This is the value you want to load
+    return render_template('index.html', tempo=tempo)
 
 
 if __name__ == '__main__':
