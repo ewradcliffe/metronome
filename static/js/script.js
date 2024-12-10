@@ -4,9 +4,14 @@ window.onload = function() {
 };
 
 // Starts metronome.
-const startMetronome = () => {
-  fetch('/start-metronome', {
-      method: 'POST',
-  })
-  .catch(error => console.error('Error:', error));
-};
+function startMetronome() {
+  fetch('/start-metronome')
+      .then(response => response.text())
+      .then(data => {
+          console.log(data);
+        
+      })
+      .catch(error => {
+          console.error('Error:', error);
+      });
+}
